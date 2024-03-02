@@ -1,4 +1,6 @@
-package auto_tesst_OOP;
+package src.hw.teacher;
+
+import src.hw.user.UserComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;

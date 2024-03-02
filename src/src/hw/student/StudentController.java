@@ -1,4 +1,7 @@
-package auto_tesst_OOP;
+package src.hw.student;
+
+import src.hw.stream.StreamService;
+import src.hw.user.UserController;
 
 import java.util.List;
 

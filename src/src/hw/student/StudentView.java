@@ -1,8 +1,10 @@
-package auto_tesst_OOP;
+package src.hw.student;
+
+import src.hw.user.UserView;
 
 import java.util.List;
 
-public class StudentView implements UserView<Student>{
+public class StudentView implements UserView<Student> {
     @Override
     public void sendOnConsole(List<Student> list) {
         for(Student student: list){

@@ -1,4 +1,6 @@
-package auto_tesst_OOP;
+package src.hw.stream;
+
+import src.hw.user.UserGroup;
 
 import java.util.Comparator;
 

@@ -1,8 +1,10 @@
-package auto_tesst_OOP;
+package src.hw.teacher;
+
+import src.hw.user.UserView;
 
 import java.util.List;
 
-public class TeacherView implements UserView<Teacher>{
+public class TeacherView implements UserView<Teacher> {
     @Override
     public void sendOnConsole(List<Teacher> list) {
         for(Teacher teacher: list){

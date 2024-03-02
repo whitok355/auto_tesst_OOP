@@ -1,4 +1,6 @@
-package auto_tesst_OOP;
+package src.hw.student;
+
+import src.hw.user.User;
 
 public class Student extends User implements Comparable<Student>{
     private Long studentId;

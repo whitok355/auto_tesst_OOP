@@ -1,4 +1,4 @@
-package auto_tesst_OOP;
+package src.hw.user;
 
 import java.util.List;
 

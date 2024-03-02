@@ -1,8 +1,11 @@
-package auto_tesst_OOP;
+package src.hw.teacher;
+
+import src.hw.stream.StreamService;
+import src.hw.user.UserController;
 
 import java.util.List;
 
-public class TeacherController implements UserController<Teacher>{
+public class TeacherController implements UserController<Teacher> {
     private final TeacherService teacherService = new TeacherService();
     private final StreamService streamService = new StreamService();
     private final TeacherView teacherView = new TeacherView();

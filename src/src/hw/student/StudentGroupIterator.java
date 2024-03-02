@@ -1,4 +1,4 @@
-package auto_tesst_OOP;
+package src.hw.student;
 
 import java.util.Iterator;
 import java.util.List;
